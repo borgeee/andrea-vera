@@ -1,7 +1,10 @@
 @media only screen and (max-width: 768px) {
     p,h1 {
-        margin: 0;
-        line-height: 1.3em;
+        margin: 0 !important;
+        line-height: 1.3em !important;
+    }
+    h1{
+        font-size: 2em !important;
     }
     body{
         width: 100%;
@@ -30,12 +33,22 @@
     }
     .details{
         z-index: 1;
-        text-align: center;
         align-self: center;
     }
-
+    .star{
+        font-size: 14px;
+        vertical-align: top;
+    }
     .masha{
         width: 100%;
         align-self: end;
+    }
+    iframe{
+        width: 100%;
+        height: 100vh;
+    }
+    .btn-primary{
+        background-color: #d5439f !important;
+        border-color: #d5439f !important;
     }
 }
