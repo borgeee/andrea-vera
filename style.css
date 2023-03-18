@@ -1,61 +1,87 @@
+body{
+    background-color: #ffd3d3 !important;
+    font-family: "Poppins" !important;
+}
+p,h1 {
+    margin: 0 !important;
+    line-height: 1.5em !important;
+}
+.content{
+    background-color: #fff;
+    display: grid;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.sofia {
+    font-family: "Sofia", sans-serif;
+    color: #d5439f;
+    font-size: 5em;
+}
+p {
+    font-family: "Poppins", serif;
+    color: #f5787a;
+    font-size: 30px;
+}
+.head {
+    display: flex;
+}
+.bear{
+    width: 35%;
+    align-self: center;
+    z-index: 0;
+    position: relative;
+}
+.details{
+    z-index: 1;
+    position: relative;
+    align-self: center;
+}
+.details h1{
+    margin-left: -40px !important;
+}
+.star{
+    font-size: 14px;
+    vertical-align: middle;
+}
+.date-venue{
+    display: block;
+}
+.rsvp{
+    margin-top: 15px;
+}
+.masha {
+    align-self: end;
+}
+.masha img{
+    width: 100%;
+    align-self: end;
+}
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+.btn-primary{
+    background-color: #d5439f !important;
+    border-color: #d5439f !important;
+}
+
 @media only screen and (max-width: 768px) {
-    p,h1 {
-        margin: 0 !important;
-        line-height: 1.3em !important;
+    .content{
+        width: 100%;
+        height: 100vh;
+    }
+    .details{
+        margin-top:55px;
+    }
+    .details p,
+    .date-venue p{
+        font-size: 1em;
     }
     h1{
         font-size: 2.5em !important;
     }
-    body{
-        width: 100%;
-        margin: auto;
-    }
-    .sofia {
-        font-family: "Sofia", sans-serif;
-        color: #d5439f;
-    }
-    p {
-        font-family: "Poppins", serif;
-        color: #f5787a;
-    }
-    .head {
-        display: flex;
-    }
-    .content{
-        display: grid;
-        height: 100vh;
-        text-align: center;
-    }
-    .bear{
-        width: 40%;
-        align-self: center;
-        z-index: -1;
-        position: relative;
-    }
-    .details{
-        z-index: 1;
-        position: relative;
-        align-self: center;
-        margin-top:55px;
-    }
-    .details h1{
-        margin-left: -75px !important;
-    }
     .star{
-        font-size: 14px;
         vertical-align: top;
     }
-    .masha{
-        width: 100%;
-        align-self: end;
-    }
-    iframe{
-        width: 100%;
-        height: 100vh;
-    }
-    .btn-primary{
-        background-color: #d5439f !important;
-        border-color: #d5439f !important;
-    }
 }
- 
