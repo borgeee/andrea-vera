@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
 @media only screen and (max-width: 768px) {
     p,h1 {
         margin: 0 !important;
         line-height: 1.3em !important;
     }
     h1{
-        font-size: 2em !important;
+        font-size: 2.5em !important;
     }
     body{
         width: 100%;
@@ -29,11 +32,17 @@
     .bear{
         width: 40%;
         align-self: center;
-        z-index: 0;
+        z-index: -1;
+        position: relative;
     }
     .details{
         z-index: 1;
+        position: relative;
         align-self: center;
+        margin-top:55px;
+    }
+    .details h1{
+        margin-left: -75px !important;
     }
     .star{
         font-size: 14px;
@@ -52,3 +61,4 @@
         border-color: #d5439f !important;
     }
 }
+ 
