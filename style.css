@@ -78,11 +78,14 @@ iframe{
         height: 100vh;
     }
     .details{
-        margin-top:55px;
+        margin-top:-20%;
     }
     .details p,
     .date-venue p{
         font-size: 1em;
+    }
+    .date-venue{
+        margin-top: -14%;
     }
     h1{
         font-size: 2.5em !important;
