@@ -4,7 +4,7 @@ body{
 }
 p,h1 {
     margin: 0 !important;
-    line-height: 1.5em !important;
+    line-height: 1.2em !important;
 }
 .content{
     background-color: #fff;
@@ -39,6 +39,8 @@ p {
     z-index: 1;
     position: relative;
     align-self: center;
+    margin-top: -20%;
+    margin-left: 30px;
 }
 .details h1{
     margin-left: -40px !important;
@@ -49,7 +51,7 @@ p {
 }
 .date-venue{
     display: block;
-    margin-top:-20%;
+    margin-top:-32%;
 }
 .rsvp{
     margin-top: 15px;
