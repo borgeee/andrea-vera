@@ -21,7 +21,10 @@ p,h1 {
 p {
     font-family: "Poppins", serif;
     color: #f5787a;
-    font-size: 30px;
+    font-size: 22px;
+}
+.date-venue p {
+    font-size: 16px;
 }
 .head {
     display: flex;
@@ -46,6 +49,7 @@ p {
 }
 .date-venue{
     display: block;
+    margin-top:-20%;
 }
 .rsvp{
     margin-top: 15px;
